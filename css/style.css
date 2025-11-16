@@ -1389,7 +1389,7 @@ body {
 
 /* Form Group with Smooth Animation */
 .form-group {
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
     transition: all 0.3s ease;
 }
 
