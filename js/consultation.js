@@ -414,14 +414,5 @@ document.addEventListener('DOMContentLoaded', function() {
         consultationForm.addEventListener('submit', handleFormSubmit);
         
         console.log('✅ Форма консультации инициализирована');
-        
-        // Проверяем конфигурацию Telegram
-        if (TELEGRAM_CONFIG.botToken === 'YOUR_BOT_TOKEN_HERE' || 
-            TELEGRAM_CONFIG.chatId === 'YOUR_CHAT_ID_HERE') {
-            console.warn('⚠️ ВНИМАНИЕ: Telegram bot не настроен!');
-            console.info('📝 Инструкция по настройке находится в файле js/consultation.js');
-        } else {
-            console.log('✅ Telegram bot настроен и готов к работе');
-        }
     }
 });
