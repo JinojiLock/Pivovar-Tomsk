@@ -594,9 +594,9 @@ body {
     right: 12px;
     background: var(--color-amber);
     color: var(--color-dark);
-    padding: 6px 12px;
+    padding: 10px 12px;
     border-radius: 20px;
-    font-size: 0.75rem;
+    font-size: 0.6rem;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -2373,7 +2373,7 @@ textarea:invalid {
     }
     
     .product-price {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     
     .product-card.on-sale .product-price {
