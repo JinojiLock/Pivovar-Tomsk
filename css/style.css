@@ -481,7 +481,7 @@ body {
     background-color: var(--color-off-white);
 }
 
- .category-filter {
+.category-filter {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -2214,12 +2214,14 @@ textarea:invalid {
     
     /* Category Filter */
     .category-filter {
-        gap: var(--spacing-xs);
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        -webkit-overflow-scrolling: touch;
     }
-    
+
     .category-btn {
-        font-size: 0.9rem;
-        padding: 8px 16px;
+        flex-shrink: 0;
+        white-space: nowrap;
     }
     
     /* Products Grid */
@@ -2326,9 +2328,7 @@ textarea:invalid {
     
     /* Category Buttons */
    .category-filter {
-       overflow-x: auto;
-       flex-wrap: nowrap;
-       -webkit-overflow-scrolling: touch;
+        justify-content: flex-start;
    }
    
    .category-btn {
