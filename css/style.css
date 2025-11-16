@@ -481,24 +481,16 @@ body {
     background-color: var(--color-off-white);
 }
 
-.category-filter {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: var(--spacing-sm);
-    margin-bottom: var(--spacing-lg);
-}
+ .category-filter {
+     overflow-x: auto;
+     flex-wrap: nowrap;
+     -webkit-overflow-scrolling: touch;
+ }
 
-.category-btn {
-    padding: var(--spacing-xs) var(--spacing-md);
-    border: 2px solid var(--color-medium-gray);
-    background-color: var(--color-white);
-    color: var(--color-dark);
-    border-radius: 25px;
-    cursor: pointer;
-    font-weight: 500;
-    transition: var(--transition);
-}
+ .category-btn {
+     flex-shrink: 0;
+     white-space: nowrap;
+ }
 
 .category-btn:hover {
     border-color: var(--color-amber);
