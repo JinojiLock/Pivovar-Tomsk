@@ -133,8 +133,6 @@ const observeProductCards = () => {
 // Initialize All Animations
 // ========================================
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('🎨 Animations initialized!');
-    
     // Initialize animations
     observeAboutCards();
     smoothCategoryTransition();
