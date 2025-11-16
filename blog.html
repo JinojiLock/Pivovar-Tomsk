@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Блог о пиве — Гид по выбору пива | Пивовар Томск</title>
+    <meta name="description" content="📚 Образовательные статьи о пиве: характеристики, стили, гастропейринг, температура подачи. Узнайте, как выбрать идеальный сорт пива!">
+    <meta name="keywords" content="блог о пиве, характеристики пива, ABV, IBU, плато, гастропейринг, стили пива, температура пива">
+    <meta name="author" content="Пивовар">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Блог о пиве — Гид по выбору | Пивовар">
+    <meta property="og:description" content="📚 6 образовательных статей о пиве: от характеристик до гастропейринга">
+    <meta property="og:image" content="https://yoursite.com/images/og-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="alternate icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.svg" alt="Пивовар" class="logo-image">
+                        <span>ПИВОВАР</span>
+                    </a>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Главная</a></li>
+                    <li><a href="index.html#catalog" class="nav-link">Каталог</a></li>
+                    <li><a href="blog.html" class="nav-link active">Блог</a></li>
+                    <li><a href="index.html#consultation" class="nav-link">Консультация</a></li>
+                    <li><a href="index.html#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Hero Section -->
+    <section class="blog-hero">
+        <div class="container">
+            <div class="blog-hero-content">
+                <h1 class="blog-hero-title">📚 Гид по пиву</h1>
+                <p class="blog-hero-subtitle">Узнайте больше о пиве и научитесь выбирать идеальный сорт</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="section section-gray">
+        <div class="container">
+            <div class="blog-grid" id="blogGrid">
+                <!-- Blog articles will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Готовы попробовать?</h2>
+                <p>Приходите в наш магазин и выберите пиво с помощью полученных знаний!</p>
+                <a href="index.html#catalog" class="btn btn-primary btn-large">
+                    <i class="fas fa-beer-mug-empty"></i>
+                    Смотреть каталог
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>О магазине</h4>
+                    <p>Магазин разливного пива «Пивовар» в Томске. Широкий ассортимент пива, напитков и закусок.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> ул. Сергея Лазо, 18, Томск</li>
+                        <li><i class="fas fa-phone"></i> +7‒909‒543‒54‒53</li>
+                        <li><i class="fas fa-clock"></i> Ежедневно 11:00-22:00</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="index.html#catalog">Каталог</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="index.html#consultation">Консультация</a></li>
+                        <li><a href="index.html#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Age Restriction -->
+            <div class="age-restriction">
+                <div class="age-badge">18+</div>
+                <p class="age-warning">
+                    Внимание! Чрезмерное употребление алкоголя вредит вашему здоровью. 
+                    Продажа алкогольной продукции лицам, не достигшим 18 лет, запрещена.
+                </p>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Пивовар. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Age Verification Modal -->
+    <div id="ageModal" class="age-modal">
+        <div class="age-modal-content">
+            <div class="age-modal-icon">
+                <i class="fas fa-wine-glass-alt"></i>
+            </div>
+            <h2>Подтверждение возраста</h2>
+            <p class="age-modal-text">Для доступа к информации о продукции необходимо подтвердить, что вам исполнилось 18 лет</p>
+            <p class="age-modal-warning">
+                <i class="fas fa-exclamation-triangle"></i>
+                В соответствии с законодательством РФ (ФЗ-171 и ФЗ-436), информация о алкогольной продукции может быть предоставлена только лицам, достигшим совершеннолетия
+            </p>
+            <div class="age-modal-buttons">
+                <button id="ageConfirmYes" class="btn btn-primary">
+                    <i class="fas fa-check"></i> Да, мне есть 18 лет
+                </button>
+                <button id="ageConfirmNo" class="btn btn-secondary">
+                    <i class="fas fa-times"></i> Нет, мне нет 18 лет
+                </button>
+            </div>
+            <p class="age-modal-footer">Нажимая "Да", вы подтверждаете, что являетесь совершеннолетним</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/blog.js"></script>
+    <script src="js/age-verification.js"></script>
+    
+    <!-- Mobile Menu Toggle -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+            const navMenu = document.getElementById('navMenu');
+            
+            if (mobileMenuToggle) {
+                mobileMenuToggle.addEventListener('click', function() {
+                    navMenu.classList.toggle('active');
+                });
+                
+                // Close menu when clicking on nav links
+                const navLinks = document.querySelectorAll('.nav-link');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        navMenu.classList.remove('active');
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
