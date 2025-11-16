@@ -970,6 +970,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: var(--spacing-xs);
+    color: var(--color-dark);
 }
 
 .btn-show-more i {
