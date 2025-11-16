@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (mobileMenuToggle) {
         mobileMenuToggle.addEventListener('click', function() {
-            navMenu.classList.toggle('active');
+            navMenu.addClassList.toggle('active');
         });
         
         // Close menu when clicking on nav links
