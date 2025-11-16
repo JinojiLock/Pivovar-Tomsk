@@ -1,0 +1,20 @@
+# robots.txt для pivovar-tomsk.ru
+# Разрешаем всем поисковым ботам индексировать сайт
+
+User-agent: *
+Allow: /
+
+# Ссылка на карту сайта
+Sitemap: https://pivovar-tomsk.ru/sitemap.xml
+
+# Специальные правила для Яндекса
+User-agent: Yandex
+Allow: /
+
+# Специальные правила для Google
+User-agent: Googlebot
+Allow: /
+
+# Запрещаем индексировать служебные файлы (если нужно)
+# Disallow: /js/
+# Disallow: /css/
