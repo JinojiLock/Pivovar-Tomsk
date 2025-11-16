@@ -1,16 +1,6 @@
-/**
- * Consultation Form Handler
- * Handles form validation and submission to Telegram Bot
- */
-
 // ============================================
 // КОНФИГУРАЦИЯ TELEGRAM BOT
 // ============================================
-// Инструкция по настройке:
-// 1. Создайте бота через @BotFather в Telegram
-// 2. Получите токен бота
-// 3. Найдите свой Chat ID (можно через @userinfobot)
-// 4. Замените значения ниже на свои
 
 const PIPEDREAM_WEBHOOK_URL = 'https://eovh945875qpmjc.m.pipedream.net';
 
