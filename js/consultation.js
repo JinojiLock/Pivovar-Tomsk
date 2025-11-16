@@ -412,7 +412,5 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Обработка отправки формы
         consultationForm.addEventListener('submit', handleFormSubmit);
-        
-        console.log('✅ Форма консультации инициализирована');
     }
 });
