@@ -685,7 +685,7 @@
       "name": "Vival 0,5/1,5л",
       "category": "drinks",
       "description": "Вода газ./негаз.",
-      "price": 48/82,
+      "price": "от 48",
       "oldPrice": null,
       "unit": "шт",
       "icon": "fa-bottle-water",
